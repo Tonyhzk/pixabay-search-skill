@@ -8,8 +8,9 @@ https://pixabay.com/music/search/{关键词}/?genre={流派}&mood={情绪}&movem
 ```
 
 - 关键词默认英文，除非用户明确指定中文
-- 所有参数值小写，多词用 `+` 连接
+- 所有参数值小写，多词用 `%20` 连接
 - 参数值为多个时用 `&` 连接同名参数，如 `genre=upbeat&genre=beats`
+- 参数值中多词用 `%20` 连接，如 `music%20for%20videos`
 
 ## 可用筛选参数
 
@@ -83,5 +84,5 @@ https://pixabay.com/music/search/wedding/?mood=romantic&genre=wedding&movement=e
 
 **方案三（最窄）**：
 ```
-https://pixabay.com/music/search/wedding/?mood=romantic&genre=wedding&movement=elegant&theme=music+for+videos
+https://pixabay.com/music/search/wedding/?mood=romantic&genre=wedding&movement=elegant&theme=music%20for%20videos
 ```

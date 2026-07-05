@@ -7,7 +7,7 @@
 https://pixabay.com/3d-models/search/{关键词}/?vertex_count={精度}&colors={颜色}&date={时间}&content_type={类型}
 ```
 
-- 关键词默认英文，URL 编码
+- 关键词默认英文，多词用 `%20` 连接
 - colors 可多选，用 `&colors=` 连接
 
 ## 可用筛选参数

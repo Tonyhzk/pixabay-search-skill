@@ -33,15 +33,15 @@ https://pixabay.com/illustrations/search/{关键词}/?orientation={方向}&min_w
 
 **方案一（最宽）**：
 ```
-https://pixabay.com/illustrations/search/business+people/
+https://pixabay.com/illustrations/search/business%20people/
 ```
 
 **方案二（适中）**：
 ```
-https://pixabay.com/illustrations/search/business+people/?orientation=horizontal
+https://pixabay.com/illustrations/search/business%20people/?orientation=horizontal
 ```
 
 **方案三（最窄）**：
 ```
-https://pixabay.com/illustrations/search/business+people/?orientation=horizontal&content_type=ai
+https://pixabay.com/illustrations/search/business%20people/?orientation=horizontal&content_type=ai
 ```

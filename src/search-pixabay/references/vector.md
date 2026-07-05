@@ -33,15 +33,15 @@ https://pixabay.com/vectors/search/{关键词}/?orientation={方向}&min_width={
 
 **方案一（最宽）**：
 ```
-https://pixabay.com/vectors/search/christmas+icon/
+https://pixabay.com/vectors/search/christmas%20icon/
 ```
 
 **方案二（适中）**：
 ```
-https://pixabay.com/vectors/search/christmas+icon/?colors=red
+https://pixabay.com/vectors/search/christmas%20icon/?colors=red
 ```
 
 **方案三（最窄）**：
 ```
-https://pixabay.com/vectors/search/christmas+icon/?colors=red&date=1y
+https://pixabay.com/vectors/search/christmas%20icon/?colors=red&date=1y
 ```

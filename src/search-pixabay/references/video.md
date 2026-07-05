@@ -7,7 +7,7 @@
 https://pixabay.com/videos/search/{关键词}/?orientation={方向}&slow_motion={慢动作}&animation={动画}&time_lapse={延时}&resolution_hd={HD}&resolution_4k={4K}&date={时间}&content_type={类型}
 ```
 
-- 关键词默认英文，URL 编码
+- 关键词默认英文，多词用 `%20` 连接
 - 布尔参数值为 `true` 时生效，不需要时删除该参数
 - resolution_hd 和 resolution_4k 值为 `1` 时生效
 
@@ -80,15 +80,15 @@ https://pixabay.com/videos/search/{关键词}/?orientation={方向}&slow_motion=
 
 **方案一（最宽）**：
 ```
-https://pixabay.com/videos/search/city+night/
+https://pixabay.com/videos/search/city%20night/
 ```
 
 **方案二（适中）**：
 ```
-https://pixabay.com/videos/search/city+night/?time_lapse=true&resolution_4k=1
+https://pixabay.com/videos/search/city%20night/?time_lapse=true&resolution_4k=1
 ```
 
 **方案三（最窄）**：
 ```
-https://pixabay.com/videos/search/city+night/?time_lapse=true&resolution_4k=1&orientation=horizontal
+https://pixabay.com/videos/search/city%20night/?time_lapse=true&resolution_4k=1&orientation=horizontal
 ```

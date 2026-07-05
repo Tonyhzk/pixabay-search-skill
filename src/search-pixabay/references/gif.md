@@ -7,7 +7,7 @@
 https://pixabay.com/gifs/search/{关键词}/?date={时间}&content_type={类型}
 ```
 
-- 关键词默认英文，URL 编码
+- 关键词默认英文，多词用 `%20` 连接
 - GIF 的筛选参数较少，主要依赖关键词精准搜索
 
 ## 可用筛选参数
@@ -54,15 +54,15 @@ https://pixabay.com/gifs/search/{关键词}/?date={时间}&content_type={类型}
 
 **方案一（最宽）**：
 ```
-https://pixabay.com/gifs/search/fireworks+celebration/
+https://pixabay.com/gifs/search/fireworks%20celebration/
 ```
 
 **方案二（适中）**：
 ```
-https://pixabay.com/gifs/search/fireworks+celebration/?content_type=authentic
+https://pixabay.com/gifs/search/fireworks%20celebration/?content_type=authentic
 ```
 
 **方案三（备选）**：
 ```
-https://pixabay.com/gifs/search/party+fireworks/
+https://pixabay.com/gifs/search/party%20fireworks/
 ```
